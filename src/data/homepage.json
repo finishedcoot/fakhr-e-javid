@@ -1,0 +1,46 @@
+[
+{
+"id":1,
+"type":"historical",
+"guid":"apadana",
+"title": "APADANA PALACE",
+"year":"515",
+"era":"B.C",
+"description":"The Apadana was the largest building on the Terrace at Persepolis, it was most likely the main hall of the kings. The columns reached 20m high and had complex capitals in the shape of bulls or lions. Here, the great king received the tribute from all the nations in the Achaemenid Empire and gave presents in return. Access to the hall is given by two monumental stairways, these are decorated by reliefs, showing delegates of the 23 subject nations of the Persian Empire paying tribute to Darius I."
+},
+{
+    "id":2,
+    "type":"historical",
+    "guid":"espahbod",
+    "title": "ESPAHBOD KHORSHID",
+    "year":"761",
+"era":"A.D",
+    "description":"This cave is located between the railway station of Pol-e-Sefid and Sorkh Abad, in the vicinity of 'Do Ab'. It was discovered in the year 1956. The cave has a simple area or hall, with a ceiling 80 m. in width and height, and is considered spectacular in the world. Near this cave is a remnant of a ruined castle and tower, which was once a beautiful structure of stone and mortar. itto.org This cave is also known as 'Dej-e-Afsanehie', and this was most probably the defense center of the Espahbodan of Mazandaran in the past."
+}
+,
+{
+    "id":3,
+    "type":"cultural",
+    "guid":"saadi",
+    "poet": "Saadi Shirazi",
+    "year":"1291",
+"era":"A.D",
+    "vers1":"\"Human beings are body parts of each other,",
+    "vers2": " In creation they are indeed of one essence.",
+    "vers3" : "If a body part is afflicted with pain,",
+    "vers4" : "Other body parts uneasy will remain.\""
+},
+{
+    "id":4,
+    "type":"cultural",
+    "guid":"nima",
+    "poet": "Nima Yushij",
+    "year":"1897",
+"era":"A.D",
+    "vers1":"\"Above the narrow pass, the shattered and desolate and drunken,",
+    "vers2": " wind whirls downward",
+    "vers3" : "The entire world is desolated by it,",
+    "vers4" : "so are my senses!\""
+}
+
+]
