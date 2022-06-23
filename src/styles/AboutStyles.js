@@ -23,13 +23,20 @@ export const LogoSection = styled(motion.div)`
 
 export const Description = styled.div`
   width: 50%;
-  padding: 2rem;
+  padding: 2rem 4rem;
   height: 70%;
   overflow-y: scroll;
   z-index: 100;
   div {
     line-height: 30px;
     height: 100%;
+    text-align: justify;
+    word-spacing: 6px;
+    h3 {
+      display: inline;
+      font-size: 18px;
+      margin: 0 15px;
+    }
   }
   span {
     display: block;
@@ -39,6 +46,7 @@ export const Description = styled.div`
   }
   p {
     margin-bottom: 1rem;
+    line-height: 30px;
   }
   /* width */
   ::-webkit-scrollbar {

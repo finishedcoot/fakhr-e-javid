@@ -64,9 +64,11 @@ const about = () => {
                 1- To specify the social and cultural needs of the society
               </span>
               <span>2- To search for the cultural and scientific talents </span>
-              3- To compile the texts presented by the scholars and the young
-              people interested in introducing their rich culture to the other
-              societies.<span></span>
+              <span>
+                3- To compile the texts presented by the scholars and the young
+                people interested in introducing their rich culture to the other
+                societies.
+              </span>
             </p>
             <p>
               In presenting the written culture of a society and publishing the
@@ -97,11 +99,15 @@ const about = () => {
 
             <p>
               Therefore, with regard to the quick and continuous changes of the
-              informing process, expanding the knowledge about the historical,
-              cultural and scientific identity among the younger generation
-              needs to be concerned seriously. Thus, the historical and social
-              culture of the home country should be taken into consideration in
-              planning the cultural programs as honorable values.
+              informing process,
+              <h3>
+                expanding the knowledge about the historical, cultural and
+                scientific identity
+              </h3>
+              among the younger generation needs to be concerned seriously.
+              Thus, the historical and social culture of the home country should
+              be taken into consideration in planning the cultural programs as
+              honorable values.
             </p>
             <p>
               Also, in order to increase the knowledge and understanding of the
