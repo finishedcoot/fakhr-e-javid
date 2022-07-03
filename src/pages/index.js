@@ -151,7 +151,7 @@ const IndexPage = () => {
     <Layout>
       <Seo title=" " />
       <Container>
-        <motion.div style={{ width: "50%", height: "100%" }}>
+        <motion.div className="imageContainer">
           <AnimatePresence exitBeforeEnter>
             {guid === "apadana" && (
               <motion.div

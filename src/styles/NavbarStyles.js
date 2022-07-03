@@ -8,7 +8,7 @@ export const Container = styled.div`
   left: 0;
   display: flex;
   justify-content: space-between;
-  z-index: 500;
+  z-index: 600;
 `
 export const Space = styled.div`
   flex: 2;
@@ -27,6 +27,11 @@ export const LogoContainer = styled.div`
     width: 70px;
     z-index: 5;
   }
+  @media (max-width: 644px) {
+    img {
+      width: 50px;
+    }
+  }
 `
 
 export const RightSide = styled.div`
@@ -43,6 +48,7 @@ export const RightSide = styled.div`
     li {
       list-style: none;
       margin-right: 1rem;
+      z-index: 600;
     }
     a {
       color: #000;

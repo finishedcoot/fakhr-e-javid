@@ -19,6 +19,11 @@ export const LogoSection = styled(motion.div)`
   .logo {
     width: 60%;
   }
+  @media (max-width: 1025px) {
+    .logo {
+      width: 40%;
+    }
+  }
 `
 
 export const Description = styled.div`
@@ -63,5 +68,10 @@ export const Description = styled.div`
   ::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 10px;
+  }
+  @media (max-width: 769px) {
+    margin-top: 4rem;
+    height: 80%;
+    padding-bottom: 4rem;
   }
 `

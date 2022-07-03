@@ -12,6 +12,20 @@ export const Container = styled.div`
     height: 100%;
     width: 100%;
   }
+  .imageContainer {
+    width: 50%;
+    height: 100%;
+  }
+  @media (max-width: 510px) {
+    flex-direction: column-reverse;
+    height: 1034px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    .imageContainer {
+      width: 90%;
+      margin-top: 50px;
+    }
+  }
 `
 export const CoverModal = styled.div`
   position: absolute;
@@ -53,6 +67,34 @@ export const WelcomeText = styled.div`
     letter-spacing: 1.5px;
     word-spacing: 13px;
   }
+  @media (max-width: 1370px) {
+    h2 {
+      font-size: 28px;
+    }
+    img {
+      width: 65px;
+    }
+  }
+  @media (max-width: 1170px) {
+    h2 {
+      letter-spacing: 1px;
+      word-spacing: 4px;
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 1025px) {
+    margin-top: 3rem;
+  }
+  @media (max-width: 825px) {
+    h2 {
+      font-size: 20px;
+      word-spacing: 2px;
+      letter-spacing: 0;
+    }
+  }
+  @media (max-width: 510px) {
+    margin-top: 6rem;
+  }
 `
 
 export const PoemContainer = styled(motion.div)`
@@ -71,6 +113,23 @@ export const PoemContainer = styled(motion.div)`
     margin-left: 10rem;
     margin-bottom: 15px;
   }
+  @media (max-width: 1370px) {
+    margin-top: 2rem;
+    h3 {
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+  @media (max-width: 900px) {
+    margin-top: 4rem;
+    h3 {
+      font-size: 14px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
 `
 export const HistoryDesc = styled(motion.div)`
   display: flex;
@@ -84,6 +143,32 @@ export const HistoryDesc = styled(motion.div)`
     letter-spacing: 5px;
     word-spacing: 10px;
   }
+  @media (max-width: 1370px) {
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 1170px) {
+    h2 {
+      letter-spacing: 1px;
+      word-spacing: 4px;
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 1025px) {
+    justify-content: start;
+    margin-top: 2rem;
+    p {
+      line-height: 20px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    width: 90%;
+  }
 `
 
 export const InfoSectionContainer = styled.div`
@@ -91,6 +176,13 @@ export const InfoSectionContainer = styled.div`
   height: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1025px) {
+    flex-direction: column;
+  }
+  @media (max-width: 510px) {
+    width: 85%;
+  }
 `
 export const TimelineMenu = styled.div`
   position: relative;
@@ -100,6 +192,12 @@ export const TimelineMenu = styled.div`
   align-items: center;
   width: 10%;
   height: 100%;
+
+  @media (max-width: 1025px) {
+    width: 100%;
+    height: 40px;
+    flex-direction: row;
+  }
 `
 
 export const TimelineItemContainer = styled.div`
@@ -113,6 +211,7 @@ export const TimelineItemContainer = styled.div`
   h3 {
     position: relative;
     width: 100%;
+    font-size: 14px;
   }
   span.date {
     position: absolute;
@@ -139,19 +238,6 @@ export const TimelineItemContainer = styled.div`
     border: 1px solid white;
   }
 
-  /* ::before {
-    position: absolute;
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: white;
-    border: 1px solid black;
-    left: 46%;
-    top: 50%;
-    z-index: 200;
-  }
-  */
   ::after {
     position: absolute;
     content: "";
@@ -165,5 +251,47 @@ export const TimelineItemContainer = styled.div`
 
   :last-of-type::after {
     height: 0px;
+  }
+
+  @media (max-width: 1370px) {
+    margin-left: 1rem;
+    height: 138px;
+    h3 {
+      font-size: 10px;
+    }
+    ::after {
+      height: 134px;
+      width: 1.5px;
+
+      left: 56%;
+    }
+  }
+  @media (max-width: 1025px) {
+    margin-left: 0rem;
+    height: 100px;
+    width: 60px;
+    padding-top: 40px;
+    z-index: 500;
+    h3 {
+      width: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    span.date {
+      left: 40%;
+      top: -15px;
+    }
+    span.time {
+      left: 40%;
+      top: 15px;
+    }
+    ::after {
+      height: 1.5px;
+      width: 70px;
+
+      left: 40.5%;
+      top: 67%;
+      z-index: 0;
+    }
   }
 `

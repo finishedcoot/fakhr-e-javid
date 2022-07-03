@@ -6,6 +6,11 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
+  @media (max-width: 644px) {
+    flex-direction: column-reverse;
+    margin-top: 6rem;
+    height: auto;
+  }
 `
 
 export const ActivitiesSection = styled(motion.div)`
@@ -18,6 +23,11 @@ export const ActivitiesSection = styled(motion.div)`
   align-items: center;
   background-color: #0a043c;
   z-index: 100;
+  @media (max-width: 644px) {
+    width: 100% !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 `
 
 export const Slider = styled.div`
@@ -41,6 +51,14 @@ export const DescriptionSection = styled(motion.div)`
   padding: 2rem;
   p {
     line-height: 30px;
+  }
+  @media (max-width: 644px) {
+    width: 75%;
+    text-align: justify;
+  }
+
+  @media (max-width: 376px) {
+    width: 90%;
   }
 `
 

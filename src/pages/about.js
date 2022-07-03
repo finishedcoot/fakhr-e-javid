@@ -22,7 +22,14 @@ const about = () => {
                 ease: [0.43, 0.13, 0.23, 0.96],
               }}
             >
-              <Link to="/">
+              <Link
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                to="/"
+              >
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -30,6 +37,11 @@ const about = () => {
                     duration: 1,
                     ease: [0.43, 0.13, 0.23, 0.96],
                     delay: 1,
+                  }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 >
                   <StaticImage

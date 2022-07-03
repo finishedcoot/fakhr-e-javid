@@ -16,6 +16,8 @@
      background-color: white;
      overscroll-behavior: none;
      overflow-x: hidden;
+     overflow-y: hidden;
+
      
    
   }  
