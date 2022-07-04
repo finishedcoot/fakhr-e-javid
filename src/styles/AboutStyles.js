@@ -7,6 +7,15 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 601px) {
+    flex-direction: column-reverse;
+    height: auto !important;
+
+    .logoContainer {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
 `
 export const LogoSection = styled(motion.div)`
   width: 100%;
@@ -23,6 +32,9 @@ export const LogoSection = styled(motion.div)`
     .logo {
       width: 40%;
     }
+  }
+  @media (max-width: 601px) {
+    flex-direction: column-reverse;
   }
 `
 
@@ -73,5 +85,30 @@ export const Description = styled.div`
     margin-top: 4rem;
     height: 80%;
     padding-bottom: 4rem;
+    p {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 601px) {
+    height: auto;
+    width: 90%;
+    padding: 0rem;
+    margin: 0;
+    overflow-y: visible;
+    margin-top: 10rem;
+    div {
+      line-height: 20px;
+      word-spacing: 4px;
+      h3 {
+        font-size: 14px;
+      }
+    }
+    p {
+      line-height: 22px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    margin-bottom: 1rem;
   }
 `

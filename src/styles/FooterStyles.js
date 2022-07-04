@@ -8,7 +8,7 @@ export const Container = styled.div`
   left: 0;
   background-color: #181818;
   z-index: 500;
-  @media (max-width: 645px) {
+  @media (max-width: 769px) {
     position: relative;
   }
 `

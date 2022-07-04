@@ -12,7 +12,10 @@ const about = () => {
       <Seo title="About" />
 
       <Container>
-        <div style={{ width: "50%", height: "100%", zIndex: 100 }}>
+        <div
+          className="logoContainer"
+          style={{ width: "50%", height: "100%", zIndex: 100 }}
+        >
           <AnimatePresence>
             <LogoSection
               initial={{ width: 0 }}

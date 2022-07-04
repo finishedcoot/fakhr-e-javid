@@ -168,6 +168,12 @@ export const HistoryDesc = styled(motion.div)`
 
   @media (max-width: 900px) {
     width: 90%;
+    p {
+      text-align: justify;
+    }
+    h3 {
+      margin-bottom: 20px;
+    }
   }
 `
 
@@ -268,6 +274,7 @@ export const TimelineItemContainer = styled.div`
   }
   @media (max-width: 1025px) {
     margin-left: 0rem;
+    margin-top: 4rem;
     height: 100px;
     width: 60px;
     padding-top: 40px;

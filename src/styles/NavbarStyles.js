@@ -58,5 +58,10 @@ export const RightSide = styled.div`
 
       text-decoration: none;
     }
+    @media (max-width: 601px) {
+      a {
+        font-size: 12px;
+      }
+    }
   }
 `
