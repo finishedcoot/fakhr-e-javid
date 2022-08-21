@@ -1,4 +1,6 @@
 ### Fakhr E Javid
+Fakhr e Javid is an iranian publicity.
+This website is made with: Gatsby.js and framer-motion
 ![](https://github.com/finishedcoot/fakhr-e-javid/blob/main/fakhr2.gif)
 ## Description
  This is presentation of the Fakhr E Javid Publication, made with React.js, Gatsby.js and framer-motion
