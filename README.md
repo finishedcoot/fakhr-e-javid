@@ -1,5 +1,5 @@
 ### Fakhr E Javid
-Fakhr E Javid Publication
+Gatsby static website
 
 ![](https://github.com/finishedcoot/fakhr-e-javid/blob/main/fakhr2.gif)
 ## Description
