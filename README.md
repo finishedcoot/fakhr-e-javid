@@ -1,11 +1,14 @@
 ### Fakhr E Javid
-Gatsby static website
+ This is a presentation of the Fakhr E Javid Publication, an enjoyable user experience.
+
+Gatsby: [Fakhr-E-Javid](https://fakhr-e-javid.netlify.app/) hosted on Netlify
+
+Used Tech:
+- Gatsby.js
+- Styled Components
+- Framer-motion
 
 ![](https://github.com/finishedcoot/fakhr-e-javid/blob/main/fakhr2.gif)
-## Description
- This is a presentation of the Fakhr E Javid Publication, made with React.js, Gatsby.js and framer-motion
-### Address:
-https://fakhr-e-javid.netlify.app/
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
